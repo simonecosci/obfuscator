@@ -1,0 +1,31 @@
+{
+    "name": "simonecosci/obfuscator",
+    "description": "Obfuscate PHP source files with basic XOR encryption in userland code at runtime.",
+    "authors": [
+        {
+            "name": "Simone Cosci",
+            "email": "simone.cosci@gmail.com",
+            "homepage": "https://github.com/simonecosci"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Obfuscator\\Obfuscate\\": "src/"
+        }
+    },
+    "require": {
+        "goaop/framework": "^3.0",
+        "php": ">=8.0"
+    },
+    "bin": [
+        "bin/obfuscate"
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Obfuscator\\Obfuscate\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/console": "^2.8|^3.0"
+    }
+}
