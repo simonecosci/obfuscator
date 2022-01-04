@@ -1,8 +1,8 @@
 #!/usr/bin/env php
 <?php declare(strict_types=1);
 
-use Darsyn\Obfuscate\Obfuscate;
-use Darsyn\Obfuscate\ObfuscateTransformer;
+use Obfuscator\Obfuscate\Obfuscate;
+use Obfuscator\Obfuscate\ObfuscateTransformer;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
